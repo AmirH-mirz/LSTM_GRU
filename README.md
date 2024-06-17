@@ -13,7 +13,8 @@ The dataset is without missing value and the dataset is ok. In order to be able 
 After this step we have to tokenize the texts. Tokenization is an important step in natural language processing (NLP) because it allows us to convert unstructured textual data into a structured format that can be analyzed and processed by machine learning algorithms. Now we have to encode the labels to turn them into numbers.
 
 LSTM and GRU:
- The embedding layer in neural networks, especially in deep learning models for natural language processing tasks, is used to transform input data (eg, words or characters) into dense vectors of fixed size. This layer essentially maps high-dimensional input data into lower-dimensional embeddings that capture semantic relationships between tokens.
+
+The embedding layer in neural networks, especially in deep learning models for natural language processing tasks, is used to transform input data (eg, words or characters) into dense vectors of fixed size. This layer essentially maps high-dimensional input data into lower-dimensional embeddings that capture semantic relationships between tokens.
 
 The advantage of using BRNN is that it can use past and future information to predict the current time step. This can be particularly useful for tasks such as language modeling, where the meaning of a word can be affected by the words before and after it.
 BRNNs can be implemented using any type of RNN architecture, such as LSTM (long-term short-term memory) or GRU (gated recurrent unit). In TensorFlow with Keras API, bidirectional layer overlay can be used to create a BRNN from any existing RNN layer.
